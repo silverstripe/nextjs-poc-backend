@@ -1,0 +1,20 @@
+---
+Name: schema-default
+---
+
+# For usage with https://github.com/silverstripeltd/nextjs-poc
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\GraphQL\Controller.default:
+    class: SilverStripe\GraphQL\Controller
+    constructor:
+      schema: default
+
+SilverStripe\Control\Director:
+  rules:
+    'graphql': '%$SilverStripe\GraphQL\Controller.default'
+
+SilverStripe\GraphQL\Schema\Schema:
+  schemas:
+    default:
+      src:
+        'app/_graphql/default'

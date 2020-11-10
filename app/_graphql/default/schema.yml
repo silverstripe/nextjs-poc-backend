@@ -1,0 +1,28 @@
+models:
+  Page:
+    fields:
+      '*': true
+      link: true
+    operations:
+      read: true
+      readOne:
+        plugins:
+          getByLink: true
+
+  DNADesign\Elemental\Models\ElementalArea:
+    fields: '*'
+
+  DNADesign\Elemental\Models\BaseElement:
+    fields: '*'
+
+  SilverStripe\ElementalFileBlock\Block\FileBlock:
+    fields: '*'
+
+  SilverStripe\ElementalBannerBlock\Block\BannerBlock:
+    fields: '*'
+
+  SilverStripe\Assets\File:
+    fields: '*'
+
+  SilverStripe\Assets\Image:
+    fields: '*'
