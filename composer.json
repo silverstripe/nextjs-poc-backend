@@ -5,19 +5,14 @@
     "require": {
         "php": "^7.1 || ^8",
         "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-core": "4.x-dev",
+        "silverstripe/recipe-cms": "4.x-dev",
         "silverstripe/reports": "4.x-dev",
         "silverstripe/siteconfig": "4.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "4.x-dev",
-        "silverstripe/graphql": "4.x-dev as 3.x-dev",
-        "silverstripe/versioned": "dev-pulls/1/schemageddon as 1.x-dev",
-        "silverstripe/versioned-admin": "dev-pulls/1/schemageddon as 1.x-dev",
-        "silverstripe/admin": "dev-pulls/1/schemageddon as 1.x-dev",
-        "silverstripe/asset-admin": "dev-pulls/1/schemageddon as 1.x-dev",
-        "silverstripe/cms": "dev-pulls/4/schemageddon as 4.x-dev",
-        "dnadesign/silverstripe-elemental": "dev-pulls/4/schemageddon as 4.x-dev",
-        "silverstripe/frameworktest": "dev-pulls/4/schemageddon",
+        "silverstripe/graphql": "4.x-dev",
+        "silverstripe/frameworktest": "4.x-dev",
+        "dnadesign/silverstripe-elemental": "4.x-dev",
         "silverstripe/elemental-fileblock": "^2.1",
         "silverstripe/elemental-bannerblock": "^2.1",
         "silverstripe/graphql-devtools": "dev-master"
@@ -47,11 +42,5 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev",
-    "repositories": {
-        "admin": {
-            "type": "vcs",
-            "url": "git@github.com:/unclecheese/silverstripe-elemental"
-        }
-    }
+    "minimum-stability": "dev"
 }
