@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6147cc6dd13585fa767d7e613d1250a",
+    "content-hash": "2fc4045ab6e4ccf6aef82b5117699f2e",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -2105,62 +2105,6 @@
             "time": "2020-11-17T23:56:04+00:00"
         },
         {
-            "name": "silverstripe/errorpage",
-            "version": "1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-errorpage.git",
-                "reference": "21738af64ddcdbf136f9295b0129b994e03cafd3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-errorpage/zipball/21738af64ddcdbf136f9295b0129b994e03cafd3",
-                "reference": "21738af64ddcdbf136f9295b0129b994e03cafd3",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/cms": "^4@dev",
-                "silverstripe/vendor-plugin": "^1.0"
-            },
-            "require-dev": {
-                "sminnee/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0"
-            },
-            "type": "silverstripe-vendormodule",
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\ErrorPage\\": "src/",
-                    "SilverStripe\\ErrorPage\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "SilverStripe",
-                    "homepage": "http://silverstripe.com"
-                },
-                {
-                    "name": "The SilverStripe Community",
-                    "homepage": "http://silverstripe.org"
-                }
-            ],
-            "description": "ErrorPage component for SilverStripe CMS",
-            "homepage": "http://silverstripe.org",
-            "keywords": [
-                "error",
-                "errorpage",
-                "silverstripe"
-            ],
-            "support": {
-                "issues": "https://github.com/silverstripe/silverstripe-errorpage/issues",
-                "source": "https://github.com/silverstripe/silverstripe-errorpage/tree/1"
-            },
-            "time": "2020-11-12T02:14:16+00:00"
-        },
-        {
             "name": "silverstripe/framework",
             "version": "4.x-dev",
             "source": {
@@ -2344,12 +2288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-graphql.git",
-                "reference": "02f57fd702568782b349a13cab6792966611e087"
+                "reference": "fec38dd9724c5c323a09c31110a27b21a3cd470c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-graphql/zipball/02f57fd702568782b349a13cab6792966611e087",
-                "reference": "02f57fd702568782b349a13cab6792966611e087",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-graphql/zipball/fec38dd9724c5c323a09c31110a27b21a3cd470c",
+                "reference": "fec38dd9724c5c323a09c31110a27b21a3cd470c",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2332,7 @@
                 "issues": "https://github.com/silverstripe/silverstripe-graphql/issues",
                 "source": "https://github.com/silverstripe/silverstripe-graphql/tree/4"
             },
-            "time": "2020-12-07T21:17:36+00:00"
+            "time": "2020-12-08T00:54:52+00:00"
         },
         {
             "name": "silverstripe/graphql-devtools",
@@ -2542,58 +2486,6 @@
                 "source": "https://github.com/silverstripe/silverstripe-mimevalidator/tree/2"
             },
             "time": "2020-12-06T21:28:12+00:00"
-        },
-        {
-            "name": "silverstripe/recipe-cms",
-            "version": "4.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/recipe-cms.git",
-                "reference": "d69f89d972c46f4728900b50b18f8a790c421f69"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/recipe-cms/zipball/d69f89d972c46f4728900b50b18f8a790c421f69",
-                "reference": "d69f89d972c46f4728900b50b18f8a790c421f69",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1 || ^8",
-                "silverstripe/admin": "1.x-dev",
-                "silverstripe/asset-admin": "1.x-dev",
-                "silverstripe/campaign-admin": "1.x-dev",
-                "silverstripe/cms": "4.x-dev",
-                "silverstripe/errorpage": "1.x-dev",
-                "silverstripe/graphql": "3.x-dev || 4.x-dev",
-                "silverstripe/recipe-core": "4.x-dev",
-                "silverstripe/recipe-plugin": "^1.2",
-                "silverstripe/reports": "4.x-dev",
-                "silverstripe/siteconfig": "4.x-dev",
-                "silverstripe/versioned": "1.x-dev",
-                "silverstripe/versioned-admin": "1.x-dev"
-            },
-            "require-dev": {
-                "sminnee/phpunit": "^5.7",
-                "sminnee/phpunit-mock-objects": "^3.4.5"
-            },
-            "type": "silverstripe-recipe",
-            "extra": {
-                "project-files": [
-                    "app/src/*"
-                ],
-                "resources-dir": "_resources"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "SilverStripe recipe for fully featured page and asset content editing",
-            "homepage": "http://silverstripe.org",
-            "support": {
-                "issues": "https://github.com/silverstripe/recipe-cms/issues",
-                "source": "https://github.com/silverstripe/recipe-cms/tree/4"
-            },
-            "time": "2020-11-13T04:13:16+00:00"
         },
         {
             "name": "silverstripe/recipe-core",
@@ -5682,7 +5574,13 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silverstripe/recipe-cms": 20,
+        "silverstripe/recipe-core": 20,
+        "silverstripe/admin": 20,
+        "silverstripe/asset-admin": 20,
+        "silverstripe/campaign-admin": 20,
+        "silverstripe/versioned-admin": 20,
+        "silverstripe/versioned": 20,
+        "silverstripe/cms": 20,
         "silverstripe/reports": 20,
         "silverstripe/siteconfig": 20,
         "silverstripe/login-forms": 20,
