@@ -2,7 +2,9 @@ models:
   Page:
     fields:
       '*': true
-      link: true
+      link:
+        type: String
+        property: Link
     operations:
       read: true
       readOne:
