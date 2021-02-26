@@ -17,6 +17,9 @@ models:
   DNADesign\Elemental\Models\BaseElement:
     fields: '*'
 
+  DNADesign\Elemental\Models\ElementContent:
+    fields: '*'
+
   SilverStripe\ElementalFileBlock\Block\FileBlock:
     fields: '*'
 
@@ -24,7 +27,11 @@ models:
     fields: '*'
 
   SilverStripe\Assets\File:
-    fields: '*'
+    fields:
+      '*': true
+      link:
+        type: String
+        property: Link
 
   SilverStripe\Assets\Image:
     fields: '*'
