@@ -18,14 +18,15 @@
         "silverstripe/login-forms": "4.x-dev",
         "silverstripe/graphql": "4.x-dev",
         "silverstripe/frameworktest": "4.x-dev",
-        "dnadesign/silverstripe-elemental": "dev-pulls/4/graphql4-support as 4.x-dev",
+        "dnadesign/silverstripe-elemental": "4.x-dev",
         "silverstripe/elemental-fileblock": "^2.1",
         "silverstripe/elemental-bannerblock": "^2.1",
         "silverstripe/graphql-devtools": "dev-master"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
-        "sminnee/phpunit-mock-objects": "^3.4.5"
+        "sminnee/phpunit-mock-objects": "^3.4.5",
+        "silverstripe/sspak": "dev-master"
     },
     "extra": {
         "resources-dir": "_resources",
@@ -48,11 +49,5 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev",
-    "repositories": {
-        "graphql": {
-            "type": "vcs",
-            "url": "https://github.com/open-sausages/silverstripe-elemental.git"
-        }
-    }
+    "minimum-stability": "dev"
 }
