@@ -3,10 +3,12 @@ recipe: lamp
 config:
   webroot: .
   php: "7.4"
-  xdebug: true
 
 services:
   appserver:
+    xdebug: true
+    config:
+      php: .lando/php.ini
     overrides:
       environment:
         PHP_IDE_CONFIG: "serverName=appserver"
